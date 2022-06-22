@@ -1,0 +1,69 @@
+
+.menu{
+    display :flex;
+    padding: 20px;
+    border-radius: 4px; 
+     
+}
+
+.formato1{
+  font-family: 'Courier New', Courier, monospace;
+  color: aliceblue;
+  text-decoration: underline;
+
+}
+.formato2{
+  font-family: 'Jazz LET', 'fantasy';
+  font-size: 30px;
+  color: aliceblue;
+
+}
+
+.fundo{
+  background-image: url(https://static6.depositphotos.com/1126698/615/i/600/depositphotos_6150600-stock-photo-old-grunge-wood-panels.jpg);
+}
+
+.redondo{
+    border-radius: 50%;
+}
+
+
+.home{  
+  background-color: #4CAF50; 
+    color: black;
+  border-radius: 4px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+
+.tipos{
+    background-color: #4CAF50; /* Green */
+    border-radius: 4px;
+  color: rgb(0, 0, 0);
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; 
+}
+
+.conosco{
+    background-color: #4CAF50; /* Green */
+    border-radius: 4px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
