@@ -3,6 +3,7 @@
     display :flex;
     padding: 20px;
     border-radius: 4px; 
+
      
 }
 
@@ -16,6 +17,10 @@
   font-family: 'Jazz LET', 'fantasy';
   font-size: 30px;
   color: aliceblue;
+  font-family: Helvetica;
+    color: #FFF;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
 
 }
 
@@ -44,5 +49,9 @@
 .cortxt{
   text-decoration:none;color:rgb(0, 0, 0);
   font-size: 18px;
+}
+
+.ponteiro{
+  cursor: url(../img/kisspng-coffee-cup-tea-cafe-breakfast-tea-cup-icon-5ab0e89ac13365.7404522815215433227914.jpg);
 }
 

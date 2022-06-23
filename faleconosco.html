@@ -17,22 +17,25 @@
 
     <form>
      <label for="nome" class="formato1">Nome:</label><br>
-     <input type="text"id "nome">
+     <input type="text"id="nome" onkeyup="validarNome()">
+     <div id="TxtNome"></div>
         <br><br>
      <label for="email" class="formato1">E-meil:</label><br>
-     <input type="email" id "email">
+     <input type="email" id="email" onkeyup="validaremail()">
+     <div id="TxtEmail"></div>
         <br><br>
      <label for="descrição" class="formato1">descrição do café:</label><br>
-     <textarea name="descrição" id="descrição" cols="60" rows="5"></textarea>
-        <br><br>
+     <textarea name="descrição" id="descricao" cols="60" rows="5" ></textarea>
+     <div id="Txtdescricao"></div>   
+     <br><br>
         <label for="Titulo" class="formato1">Titulo</label>
         <input type="text" name="titulo"><br>
         <input type="file" name="img" class="formato1"><br>
-        <input type="submit" value="Enviar">
+        <input onclick="Enviar()" type="submit" value="Enviar">
     </form>
 
     
-   
+<script src="assets/javascript/script.js"></script>   
 
 </body>
 </html>
